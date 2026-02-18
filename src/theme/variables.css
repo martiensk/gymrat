@@ -1,0 +1,83 @@
+:root {
+  --ion-color-primary: #0f7a50;
+  --ion-color-primary-rgb: 15, 122, 80;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-shade: #0d6b46;
+  --ion-color-primary-tint: #278761;
+
+  --ion-color-secondary: #f4c95d;
+  --ion-color-secondary-rgb: 244, 201, 93;
+  --ion-color-secondary-contrast: #141414;
+  --ion-color-secondary-shade: #d7b053;
+  --ion-color-secondary-tint: #f5cf6d;
+
+  --ion-color-danger: #c3423f;
+
+  --ion-background-color: #f4f8f4;
+  --ion-text-color: #13251c;
+  --ion-toolbar-background: #ffffff;
+  --ion-toolbar-color: #13251c;
+
+  --app-bg-base: #f4f8f4;
+  --app-bg-glow-primary: rgba(15, 122, 80, 0.12);
+  --app-bg-glow-secondary: rgba(244, 201, 93, 0.2);
+  --app-surface: #ffffff;
+  --app-surface-soft: #fdfefd;
+  --app-surface-raised: #f9fcf8;
+  --app-border: #d7e2d7;
+  --app-border-strong: #ced9cf;
+  --app-border-accent: #8ac3a8;
+  --app-text-muted: #4f5f52;
+  --app-text-subtle: #576359;
+  --app-text-soft: #5e6a60;
+  --app-danger-text: #b73535;
+  --app-shadow: rgba(12, 40, 23, 0.08);
+  --app-table-head: #f7faf7;
+  --app-banner-ok-border: #c6dbcb;
+  --app-banner-ok-bg: #f0f8f2;
+  --app-banner-ok-text: #265038;
+  --app-banner-error-border: #e7c4c4;
+  --app-banner-error-bg: #fff0f0;
+  --app-banner-error-text: #8f2d2d;
+  --app-deload-border: #c7dfcc;
+  --app-deload-bg: #eef8f1;
+  --app-deload-text: #1d4d33;
+  --app-deload-warning-border: #e7d09c;
+  --app-deload-warning-bg: #fff7df;
+  --app-deload-warning-text: #7c5c08;
+}
+
+:root.ion-palette-dark {
+  --ion-background-color: #0f1513;
+  --ion-text-color: #e5f2e8;
+  --ion-toolbar-background: #16201c;
+  --ion-toolbar-color: #e5f2e8;
+
+  --app-bg-base: #0f1513;
+  --app-bg-glow-primary: rgba(39, 135, 97, 0.24);
+  --app-bg-glow-secondary: rgba(244, 201, 93, 0.16);
+  --app-surface: #16201c;
+  --app-surface-soft: #1a2520;
+  --app-surface-raised: #18241f;
+  --app-border: #2a3a33;
+  --app-border-strong: #32453d;
+  --app-border-accent: #3f8b67;
+  --app-text-muted: #b6c7bc;
+  --app-text-subtle: #a8bcaf;
+  --app-text-soft: #9eb2a6;
+  --app-danger-text: #f08d8b;
+  --app-shadow: rgba(0, 0, 0, 0.35);
+  --app-table-head: #1d2a24;
+  --app-banner-ok-border: #365746;
+  --app-banner-ok-bg: #1e3228;
+  --app-banner-ok-text: #ccead6;
+  --app-banner-error-border: #6f3a3a;
+  --app-banner-error-bg: #301b1b;
+  --app-banner-error-text: #f3c4c4;
+  --app-deload-border: #365746;
+  --app-deload-bg: #1e3228;
+  --app-deload-text: #ccead6;
+  --app-deload-warning-border: #6f6130;
+  --app-deload-warning-bg: #2d2817;
+  --app-deload-warning-text: #f2dea6;
+}
