@@ -1,33 +1,52 @@
 {
-  "name": "gymrat-native",
+  "name": "gymrat",
+  "version": "1.0.0",
   "private": true,
-  "version": "0.1.0",
-  "type": "module",
+  "main": "expo-router/entry",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "preview": "vite preview",
-    "typecheck": "tsc -b --pretty",
-    "cap:sync": "npx cap sync",
-    "cap:android": "npx cap open android",
-    "cap:ios": "npx cap open ios"
+    "start": "expo start",
+    "android": "expo start --android",
+    "web": "expo start --web",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@capacitor/android": "^7.0.0",
-    "@capacitor/core": "^7.0.0",
-    "@capacitor/ios": "^7.0.0",
-    "@capacitor/preferences": "^7.0.0",
-    "@ionic/react": "^8.0.0",
-    "ionicons": "^8.0.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0"
+    "@expo-google-fonts/inter": "^0.4.2",
+    "@expo-google-fonts/jetbrains-mono": "^0.4.1",
+    "@expo/metro-runtime": "~57.0.8",
+    "@expo/vector-icons": "^15.0.2",
+    "@react-native-community/netinfo": "^12.0.1",
+    "appwrite": "^26.2.0",
+    "expo": "~57.0.9",
+    "expo-constants": "~57.0.7",
+    "expo-file-system": "~57.0.1",
+    "expo-font": "~57.0.1",
+    "expo-image-manipulator": "~57.0.7",
+    "expo-image-picker": "~57.0.7",
+    "expo-linking": "~57.0.4",
+    "expo-router": "~57.0.9",
+    "expo-splash-screen": "~57.0.5",
+    "expo-sqlite": "~57.0.1",
+    "expo-status-bar": "~57.0.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "react-native": "0.86.2",
+    "react-native-appwrite": "^0.34.0",
+    "react-native-gesture-handler": "~2.32.0",
+    "react-native-reanimated": "4.5.1",
+    "react-native-reanimated-dnd": "^2.0.0",
+    "react-native-safe-area-context": "~5.7.0",
+    "react-native-screens": "~4.26.0",
+    "react-native-web": "^0.21.2",
+    "react-native-worklets": "0.10.1"
   },
   "devDependencies": {
-    "@capacitor/cli": "^7.0.0",
-    "@types/react": "^18.3.0",
-    "@types/react-dom": "^18.3.0",
-    "@vitejs/plugin-react": "^5.0.0",
-    "typescript": "^5.6.0",
-    "vite": "^6.0.0"
+    "@types/react": "~19.2.2",
+    "eslint": "^9.39.2",
+    "eslint-config-expo": "~57.0.1",
+    "typescript": "~6.0.3"
+  },
+  "overrides": {
+    "expo-file-system": "$expo-file-system"
   }
 }
